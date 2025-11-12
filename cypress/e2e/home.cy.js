@@ -20,7 +20,7 @@ describe('Página home da aplicação MiniShop', ()=> {
         
     })
 
-    ImageTrack('Deve exibir o titulo correto', ()=>{
+    it('Deve exibir o titulo correto', ()=>{
         home.verificarTitulo
     })
 
