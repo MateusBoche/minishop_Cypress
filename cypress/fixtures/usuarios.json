@@ -1,0 +1,11 @@
+{
+    "usuarioValido":{
+        "usuario": "admin",
+        "senha": "12345"
+    },
+
+    "usuarioInvalido":{
+        "usuario": "teste",
+        "senha": "master"
+    }
+}

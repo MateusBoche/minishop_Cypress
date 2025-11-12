@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>MiniShop - Produto</title>
+  <link href="../bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body onload="loadProduct()">
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a href="home.html" class="btn btn-outline-light btn-sm">Voltar</a>
+      <span class="navbar-brand mx-auto">Detalhes do Produto</span>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div id="product-details" class="text-center"></div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="successModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body text-center p-4">
+          <h5 class="mb-3">Compra realizada com sucesso!</h5>
+          <button class="btn btn-success" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/product.js"></script>
+</body>
+</html>
